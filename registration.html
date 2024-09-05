@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="registration_stylesheet" href="style.css">
+    <link rel="stylesheet" href="registrationStylesheet.css">
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <a class="link" href="index.html">Home</a>
+                <a class="link" href="">Back to Schedule</a>
+            </div>
+            <div class="title">
+                <h1>Survuval Skills - Wilderness</h1>
+            </div>
+        </div>
+        <div class="body">
+            <div class="training_details">
+                <div class="h2">Training Details</div>
+                <p><span class="d_title">Date</span> 2024-09-05</p>
+                <p><span class="d_title">Instructor:</span> Sgt Davis</p>
+                <p><span class="d_title">Description:</span> Lorem ipsum dolor sit amet consecte tur adipisicing elit.</p>
+                <p><span class="d_title">Durations:</span> 4 hours</p>
+                <p><span class="d_title">Equipment:</span> Survivle kt, map, compass</p>
+            </div>
+            <div id="form_title">
+                <h2>Sign Up for Survuval Skills</h2>
+            </div>
+            <div class="registration_form">
+                <form action="" class="form">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="first_name" id="first_name">
+
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name">
+
+                    <label for="ID">ID Number:</label>
+                    <input type="text" name="ID" id="ID">
+
+                     <label for="Rank">Rank:</label>
+                    <!--<input type="text" name="Rank" id="Rank"> -->
+                    <select name="Rank" id="">
+                        <option value="private">Private</option>
+                    </select>
+                    <label for="Gender">Gender:</label>
+                    <div class="gender">
+                        <input type="radio" name="Gender" id="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" name="Gender" id="Female">
+                        <label for="Female">Female</label>
+                    </div>
+
+
+                    <input class="submit" type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>כל הזכויות שמורות</p>
+        </div>
+    </div>
     
 </body>
 </html>
