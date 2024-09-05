@@ -3,6 +3,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100vh;
 }
 .container{
     margin: 0;
@@ -82,7 +84,7 @@ body{
 .content{
     width: 97%;
     height: 70%;
-    padding: 10px;
+    padding: 15px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -114,8 +116,8 @@ body{
 }
 
 .card{
-    width: 700px;
-    height: 400px;
+    width: 70%;
+    height: 40%;
     background-color: rgb(209, 205, 205);
     margin: 5px;
     border-radius: 10px;
@@ -123,10 +125,11 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 .card:hover{
     background-color: rgb(184, 178, 178);
-    width: 715px;
+    width: 72%;
 
 }
 
@@ -144,6 +147,16 @@ body{
     margin-left: 10px;
 }
 
+.card .card_info p, .card .card_info a{
+    margin: 1%;
+    padding: 2px;
+    color: rgb(58, 56, 56);
+}
+.card .card_type{
+    width: 25%;
+    height:20%;
+
+}
 .card .instructor{
     width: 35%;
     height: 70%;
@@ -174,7 +187,7 @@ body{
     border-radius: 10px;}
 .footer{
     width: 100%;
-    height: 10%;
+    height: 8%;
     background-color: green;
     display: flex;
     flex-direction: column;
