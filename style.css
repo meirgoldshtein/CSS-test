@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -27,7 +28,7 @@ body{
 
 .nav{
     width: 90%;
-    height: 30%;
+    height: 35%;
     background-color: rgb(2, 48, 2);
     display: flex;
     flex-direction: row;
@@ -63,14 +64,21 @@ body{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
     align-items: start;
-    margin: 20px;
+    margin: 2%;
     border-radius: 10px;
-    padding: 10px;
+    padding: 1%;
 
 }
 
+.welcome h2{
+    margin: 0;
+}
+
+.welcome p{
+    margin-top: 1%;
+}
 .content{
     width: 97%;
     height: 70%;
